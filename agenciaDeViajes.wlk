@@ -73,8 +73,8 @@ nos interesa
 
 class packsDeViajes{
 
-property dias =
-property precioBase =
+const property dias =
+const property precioBase =
 const beneficiosEspeciales = []
 const coordinadorAsignado = 
 method coordinadorACargo() {
@@ -105,8 +105,13 @@ const esDeInteres =
 
 class coordinador {
 
+var cantViajes = 
+var property estaMotivado =
+var añosDeExperiencia =
+const roles = [guia, asistenteLogistico, acompañante] 
+property rolAsignado = 
 
-    
+
 }
 
 
