@@ -4,7 +4,7 @@ test "pack Nacional"{
 
 const packNacionalUno = new packsNacionales(dias=10, precioBase=100,coordinadorAsignado="carlos",provinciaDeDestino="jujuy" )
 
-packNacionalUno.
+packNacionalUno.valorFinal()
 
 
 }
