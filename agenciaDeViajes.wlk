@@ -85,9 +85,25 @@ method coordinadorACargo() {
 
 }
 
+
 class packsNacionales inherits packsDeViajes {
 
+const provinciaDeDestino =
+const actividadesIncluidas = []
 
+
+}
+
+class packsInterNacionales inherits packsDeViajes {
+
+const paisDestino = 
+const cantidadEscalas =
+const esDeInteres =
+
+
+}
+
+class coordinador {
 
 
     
