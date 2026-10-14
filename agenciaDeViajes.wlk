@@ -94,7 +94,7 @@ const provinciaDeDestino =
 const actividadesIncluidas = []
 method valorFinal() {
 
-    return 
+    return precioBase + beneficiosEspeciales.sum(b=>b.costo())
 }
 
 }
