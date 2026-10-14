@@ -104,7 +104,17 @@ class packsInterNacionales inherits packsDeViajes {
 const paisDestino = 
 const cantidadEscalas =
 const esDeInteres =
+method totalFinal() {
 
+    return precioBase + beneficiosEspeciales.sum(b=>b.costo())
+
+}
+
+method valorFinal() {
+
+    return self.totalFinal() + self.totalFinal() * 0.20
+
+}
 
 }
 
@@ -122,7 +132,11 @@ const property rolAsignado =
 class beneficiosEspeciales {
 
 const property tipo =
-const property costo =
+const costo =
+method costo() {
+
+    return costo
+}
 const property estaVigente =
 
 
