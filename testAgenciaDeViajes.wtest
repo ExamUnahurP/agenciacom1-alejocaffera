@@ -1,1 +1,14 @@
-describe "calcular valor final de un pack"
+describe "calcular valor final de un pack" {
+
+test "pack Nacional"{
+
+const packNacionalUno = new packsNacionales(dias=10, precioBase=100,coordinadorAsignado="carlos",provinciaDeDestino="jujuy" )
+
+packNacionalUno.
+
+
+}
+
+
+
+}
