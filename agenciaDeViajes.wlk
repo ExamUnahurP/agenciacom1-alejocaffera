@@ -10,7 +10,7 @@ no se debe permitir crear un pack si no es de alguno de estos dos tipos
 
 saber:
 
-- duracion de dias
+- duracion en dias
 
 - precio base
 
@@ -48,11 +48,32 @@ cada pack tiene un coordinador
 
 - su rol (guia, asistente logistico, acompañante)
 
+* puede cambiar de rol entre los tres dados
 
+
+-------
+
+beneficios especiales
+
+- traslados privados
+
+- acceso a salas VIP
+
+- seguros adicionales
+
+nos interesa 
+
+- tipo, definidos como texto
+
+- costo
+
+- si esta vigente
 
 */ 
 
+class packsDeViajes{
 
-
-
-
+property dias =
+property precioBase =
+property benefuciosEspeciales = []
+}
