@@ -75,5 +75,22 @@ class packsDeViajes{
 
 property dias =
 property precioBase =
-property benefuciosEspeciales = []
+const beneficiosEspeciales = []
+const coordinadorAsignado = 
+method coordinadorACargo() {
+
+    return coordinadorAsignado
+
 }
+
+}
+
+class packsNacionales inherits packsDeViajes {
+
+
+
+
+    
+}
+
+
