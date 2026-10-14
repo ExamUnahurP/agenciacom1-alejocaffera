@@ -83,6 +83,8 @@ method coordinadorACargo() {
 
 }
 
+
+
 }
 
 
@@ -90,7 +92,10 @@ class packsNacionales inherits packsDeViajes {
 
 const provinciaDeDestino =
 const actividadesIncluidas = []
+method valorFinal() {
 
+    return 
+}
 
 }
 
@@ -109,9 +114,17 @@ var cantViajes =
 var property estaMotivado =
 var añosDeExperiencia =
 const roles = [guia, asistenteLogistico, acompañante] 
-property rolAsignado = 
+const property rolAsignado = 
 
 
 }
 
+class beneficiosEspeciales {
 
+const property tipo =
+const property costo =
+const property estaVigente =
+
+
+
+}
